@@ -3,6 +3,11 @@
   <groupId>org.lappsgrid</groupId>
   <artifactId>pi1-pjana</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  <packaging>war</packaging>
   <dependencies>
   	<dependency>
   		<groupId>org.lappsgrid</groupId>
@@ -10,4 +15,9 @@
   		<version>2.3.1</version>
   	</dependency>
   </dependencies>
+  <parent>
+    <artifactId>war-parent-pom</artifactId>
+    <groupId>org.lappsgrid.maven</groupId>
+    <version>2.0.5</version>
+</parent>
 </project>
